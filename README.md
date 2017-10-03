@@ -1,2 +1,8 @@
 # DistanceRangeBar
 An Android view to handle range choose.
+
+
+# Feature
+
+<img src="captures/feature.gif" alt="Expand to collapse animation" width="216px"/>
+
