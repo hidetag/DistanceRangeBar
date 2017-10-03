@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DistanceRangeBar">
+        <attr name="tickHeight" format="dimension"/>
+        <attr name="tickColor" format="color"/>
+        <attr name="barWeight" format="dimension"/>
+        <attr name="rangeBarColor" format="reference|color"/>
+        <attr name="selectorSize" format="dimension"/>
+        <attr name="selectorBoundaryColor" format="reference|color"/>
+        <attr name="selectorBoundarySize" format="dimension"/>
+        <attr name="pinPadding" format="dimension"/>
+        <attr name="rangeBarPaddingBottom" format="dimension"/>
+        <attr name="selectorColor" format="reference|color"/>
+        <attr name="pinRadius" format="dimension"/>
+        <attr name="tickBoundaryColor" format="color|reference"/>
+        <attr name="tickMargin" format="dimension"/>
+        <attr name="tickBoundaryWidth" format="dimension"/>
+        <attr name="effectColor" format="color|dimension"/>
+        <attr name="chooseTextColor" format="color|reference"/>
+        <attr name="unChooseTextColor" format="color|reference"/>
+        <attr name="barTextSize" format="dimension"/>
+        <attr name="barTextMarginRangeBar" format="dimension"/>
+    </declare-styleable>
+</resources>
