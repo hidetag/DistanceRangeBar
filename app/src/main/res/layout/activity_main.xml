@@ -30,7 +30,7 @@
                     android:layout_marginRight="16dp"
                     android:layout_marginTop="100dp"
                     custom:barTextMarginRangeBar="25dp"
-                    custom:barTextSize="6sp"
+                    custom:barTextSize="12sp"
                     custom:chooseTextColor="#16c5ad"
                     custom:effectColor="#bbbbbb"
                     custom:rangeBarColor="#eeeeee"

@@ -83,7 +83,7 @@ public final class DistanceRangeBar extends View {
         try {
             mBarTextMarginRangeBar = ta.getDimension(R.styleable.DistanceRangeBar_barTextMarginRangeBar, TypedValue
                     .applyDimension(TypedValue.COMPLEX_UNIT_DIP, 40, getResources().getDisplayMetrics()));
-            mBarTextSize = ta.getDimension(R.styleable.DistanceRangeBar_barTextSize, TypedValue
+            mBarTextSize = ta.getDimensionPixelSize(R.styleable.DistanceRangeBar_barTextSize, (int) TypedValue
                     .applyDimension(TypedValue.COMPLEX_UNIT_SP, 12, getResources().getDisplayMetrics()));
             mChooseTextColor = ta.getColor(R.styleable.DistanceRangeBar_chooseTextColor, 0xff16c5ad);
             mUnChooseTextColor = ta.getColor(R.styleable.DistanceRangeBar_unChooseTextColor, 0xffbbbbbb);
@@ -492,7 +492,7 @@ public final class DistanceRangeBar extends View {
             mTextPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
             mTextPaint.setAntiAlias(true);
             mTextPaint.setTextAlign(Paint.Align.CENTER);
-            mTextPaint.setTextSize(TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_SP, mBarTextSize, mContext.getResources().getDisplayMetrics()));
+            mTextPaint.setTextSize(mBarTextSize);
         }
 
         void draw(Canvas canvas) {
@@ -632,6 +632,6 @@ public final class DistanceRangeBar extends View {
                 createPins();
                 setRangePinsByIndices(mRightIndex);
             }
-        }, 50);
+        }, 500);
     }
 }
